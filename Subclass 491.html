@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skilled Work Regional (Provisional) Visa (Subclass 491) | HSM Immigration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700%7cPT+Serif:400,400i,700,700i" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        :root {
+            --primary-color: #0B2F6A;
+            --secondary-color: #F0F4F8;
+            --text-color: #333;
+            --light-bg: #fff;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            line-height: 1.7;
+            color: var(--text-color);
+            background: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, rgba(11, 47, 106, 0.95), rgba(11, 47, 106, 0.9)),
+                        url('');
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            color: white;
+            padding-right: 40px;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .hero-content p {
+            font-size: 1.25em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .btn {
+    display: inline-block;
+    background: white;
+    color: #0B2F6A;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+.cta .btn {
+    background: white;
+    color: #0B2F6A;
+    border: 2px solid white;
+}
+
+.cta .btn:hover {
+    background: transparent;
+    color: white;
+}
+
+        /* Form Styles */
+        .enquiry-form {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .enquiry-form h2 {
+            color: var(--primary-color);
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-color);
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(11, 47, 106, 0.1);
+        }
+
+        .phone-input {
+            display: flex;
+            gap: 10px;
+        }
+
+        .phone-input select {
+            width: 30%;
+        }
+
+        .phone-input input {
+            width: 70%;
+        }
+
+        .btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0A2A5E;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section:nth-child(even) {
+            background: var(--secondary-color);
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 60px;
+        }
+
+        .section-description {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            color: var(--text-color);
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        /* Eligibility List */
+        .eligibility-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .eligibility-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .eligibility-item:hover {
+            transform: translateX(5px);
+        }
+
+        .check-icon {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        /* Points Table */
+        .points-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+
+        .points-table th,
+        .points-table td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .points-table th {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .points-table tr:nth-child(even) {
+            background-color: var(--secondary-color);
+        }
+
+        .points-table tr:hover {
+            background-color: #E8F0FE;
+        }
+
+        /* Process Steps */
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .process-step {
+            background: white;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .process-step:hover {
+            transform: translateY(-5px);
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            border-radius: 50%;
+        }
+
+        /* Documents Grid */
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .document-card {
+            background: white;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .document-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .document-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .document-list {
+            list-style: none;
+        }
+
+        .document-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .document-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .cta h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .cta .btn {
+            width: auto;
+            margin-top: 30px;
+            background: white;
+            color: var(--primary-color);
+        }
+
+        .cta .btn:hover {
+            background: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content {
+                padding-right: 0;
+                text-align: center;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5em;
+            }
+
+            .section {
+                padding: 60px 0;
+            }
+
+            .enquiry-form {
+                margin-top: 40px;
+            }
+        }
+        .timeline-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .timeline-item {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-item h4 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+    }
+
+    .timeline-item ul {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .timeline-item ul li {
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .timeline-item ul li:before {
+        content: "•";
+        color: var(--primary-color);
+        position: absolute;
+        left: -15px;
+    }
+
+    .section-subtitle {
+        color: var(--primary-color);
+        font-size: 1.8em;
+        margin: 40px 0 20px;
+        text-align: center;
+    }
+
+    .process-step ul {
+        list-style: none;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+    .process-step ul li {
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .process-step ul li:before {
+        content: "•";
+        color: var(--primary-color);
+        position: absolute;
+        left: -15px;
+    }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <!-- topbar -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-none d-sm-none d-lg-block d-xl-block">
+                    <p class="welcome-text">Welcome to HSM - Immigrations Consulting Company</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="header-block">
+                        <span class="header-link d-none d-xl-block"><a href="contact.html" class="anchor-link">Talk to Our Expert</a></span>
+                        <span class="header-link">+91 96076 21025</span>
+                        <span class="header-link"> <button type="submit" class="" data-toggle="modal" data-target="#searchModal"> <i class="fa fa-search"></i></button></span>
+                        <span class="header-link"><a href="contact.html" class="btn btn-default btn-sm">Apply Now</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.topbar -->
+    <div class="header-classic">
+        <!-- header classic -->
+          <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"><a href="index.html" class=""><img src="images/HSM LOGO (72 x 12 in).png" alt="Cannada & Australia Immigration"></a></div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+                     <div id="navigation" class="navigation">
+                        <!-- navigation -->
+                       <ul>
+                            <li><a href="index.html">Home</a>
+                                <!-- <ul>
+                                    <li><a href="index.html">Homepage v1</a></li>
+                                    <li><a href="index-2.html">Homepage v2</a></li>
+                                    <li><a href="index-3.html">Homepage v3</a></li>
+                                    <li><a href="#">Landing pages</a>
+                                        <ul>
+                                            <li><a href="landing-page-v1.html">Landing page v1</a></li>
+                                            <li><a href="landing-page-country-v1.html">Landing page country v1</a></li>
+                                            <li><a href="landing-page-ebook-v3.html">Landing page v3 - eBook</a></li>
+                                            <li><a href="landing-page-webinar.html">Landing page v4 - Webinars</a></li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <li><a href="#">Coaching</a>
+                                <ul>
+                                    
+                                    <li><a href="ielts.html">IELTS</a></li>
+                                    <li><a href="pte.html">PTE</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="visa-list.html">Visas</a>
+                                
+                            </li>
+                            
+                            
+                            
+                            <li><a href="study.html">Study</a></li> 
+                            
+                            
+                            <li><a href="migrate.html">Migrate</a>
+                                <ul>
+                                    <li><a href="Australia.html">Austarlia</a>
+                                        <ul>
+                                            
+                                            <li><a href="Subclass 189.html">Subclass 189</a></li>
+                                            <li><a href="Subclass 190.html">Subclass 190</a></li>
+                                            <li><a href="Subclass 491.html">Subclass 491</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="about.html">About us </a>
+                                <!-- <ul>
+                                    <li><a href="#">About Us</a>
+                                        <ul>
+                                            <li><a href="about-us-page-v1.html">About us v1</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="founder-page.html">Founder page</a></li>
+                                    <li><a href="agent-list-page.html">Agent List</a></li>
+                                    <li><a href="agent-single-page.html">Agent Single</a></li>
+                                    <li><a href="partner-university-page.html">Partner University Page</a></li>
+                                </ul> -->
+                            </li>
+                            
+                            
+                            
+                            
+                            <li><a href="free-assessment-enquiry.html" target="blank">Points Calculator +</a></li>
+                            
+                            
+                            
+                            <!-- <li><a href="#">Blog </a>
+                               
+                            </li> -->
+                            <li><a href="contact.html">Contact </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1>Skilled Work Regional (Provisional) Visa (Subclass 491)</h1>
+                    <p>Your Pathway to Permanent Residency in Regional Australia</p>
+                    <a href="contact.html" class="btn">Get Expert Consultation</a>
+                </div>
+                <div class="enquiry-form">
+                    <h2>Quick Enquiry</h2>
+                    <form id="enquiryForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="visa-type">Visa Type</label>
+                            <select id="visa-type" required>
+                                <option value="">Select a visa type</option>
+                                <option value="491">Skilled Work Regional (491)</option>
+                                <option value="189">Skilled Independent (189)</option>
+                                <option value="190">Skilled Nominated (190)</option>
+                                <option value="482">Temporary Skill Shortage (482)</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Additional Comments</label>
+                            <textarea id="comments" rows="4" placeholder="Any specific questions or concerns?"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Key Highlights of Subclass 491 Visa</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Visa Duration & Benefits</h3>
+                    <p>- Valid for 5 years from the date of grant</p>
+                    <p>- Permission to work and study in designated regional areas</p>
+                    <p>- Access to Medicare and public healthcare</p>
+                    <p>- Unlimited travel in and out of Australia</p>
+                    <p>- Include family members in your application</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Regional Commitment</h3>
+                    <p>- Live, work, and study in designated regional areas only</p>
+                    <p>- Must live in the nominating region for the duration of visa</p>
+                    <p>- Regional areas include all of Australia except:</p>
+                    <p>  • Sydney, Melbourne, Brisbane metropolitan areas</p>
+                    <p>  • Gold Coast, Newcastle, Wollongong</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Pathway to Permanent Residency</h3>
+                    <p>- Eligible for Subclass 191 permanent visa after:</p>
+                    <p>  • 3 years of regional residence</p>
+                    <p>  • Minimum taxable income requirement for 3 years</p>
+                    <p>  • Compliance with visa conditions</p>
+                    <p>- Can include dependent family members in PR application</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Detailed Eligibility Requirements</h2>
+            <div class="eligibility-list">
+                <div class="eligibility-item">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <p><strong>Age Requirement:</strong></p>
+                        <p>- Must be under 45 years when invited</p>
+                        <p>- Age is calculated at the time of invitation, not application</p>
+                        <p>- No exceptions to the age requirement</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <p><strong>English Language Proficiency:</strong></p>
+                        <p>- Minimum Competent English required (IELTS 6.0 in each band or equivalent)</p>
+                        <p>- Higher points for Superior English (IELTS 8.0 or equivalent)</p>
+                        <p>- Accepted tests: IELTS, TOEFL iBT, PTE Academic, CAE</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <p><strong>Skills Assessment:</strong></p>
+                        <p>- Must have positive skills assessment in nominated occupation</p>
+                        <p>- Occupation must be on relevant skilled occupation list</p>
+                        <p>- Assessment must be valid at time of invitation</p>
+                        <p>- Different assessing authorities for different occupations</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <p><strong>Nomination Requirements:</strong></p>
+                        <p>- Must be nominated by either:</p>
+                        <p>  • State/Territory government agency, OR</p>
+                        <p>  • Eligible family sponsor living in designated regional area</p>
+                        <p>- Family sponsors must be Australian citizens or permanent residents</p>
+                        <p>- Must meet specific state/territory nomination criteria if applicable</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <span class="check-icon">✓</span>
+                    <div>
+                        <p><strong>Financial Requirements:</strong></p>
+                        <p>- Must have sufficient funds to settle in regional Australia</p>
+                        <p>- Evidence of funds may be required by nominating state/territory</p>
+                        <p>- Additional funds required for family members</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Points System</h2>
+            <p class="section-description">To be eligible for the Subclass 491 visa, you must score at least 65 points. Points are awarded based on various factors:</p>
+            <table class="points-table">
+                <thead>
+                    <tr>
+                        <th>Factor</th>
+                        <th>Maximum Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Age (18-45 years)</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>English language skills</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Skilled employment experience</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Educational qualifications</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Australian study requirement</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Specialist education qualification</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Credentialled community language</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Study in regional Australia</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Partner skills</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>State/Territory nomination</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Comprehensive Application Process</h2>
+            <p class="section-description">The application process for Subclass 491 visa involves multiple stages. Here's a detailed breakdown of each step:</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Skills Assessment</h3>
+                    <p>Before starting your application:</p>
+                    <ul>
+                        <li>Identify your occupation on the Skilled Occupation List</li>
+                        <li>Contact relevant skills assessment authority</li>
+                        <li>Prepare and submit required documents</li>
+                        <li>Processing time: 1-4 months depending on authority</li>
+                        <li>Validity: Usually 2-3 years</li>
+                    </ul>
+                </div>
+    
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>English Language Test</h3>
+                    <p>Choose from accepted tests:</p>
+                    <ul>
+                        <li>IELTS</li>
+                        <li>PTE Academic</li>
+                        <li>TOEFL iBT</li>
+                        <li>CAE</li>
+                    </ul>
+                    <p>Results validity: 3 years from test date</p>
+                </div>
+    
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Expression of Interest (EOI)</h3>
+                    <p>Submit through SkillSelect:</p>
+                    <ul>
+                        <li>Create an ImmiAccount</li>
+                        <li>Complete all sections accurately</li>
+                        <li>Upload supporting documents</li>
+                        <li>Validity: 2 years</li>
+                        <li>Can be updated anytime</li>
+                    </ul>
+                </div>
+    
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>State/Territory Nomination</h3>
+                    <p>Apply for regional nomination:</p>
+                    <ul>
+                        <li>Research state nomination criteria</li>
+                        <li>Submit separate application to chosen state</li>
+                        <li>Provide additional documentation if required</li>
+                        <li>Pay nomination fees if applicable</li>
+                        <li>Processing time: 2-12 weeks</li>
+                    </ul>
+                </div>
+    
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Invitation to Apply</h3>
+                    <p>After receiving invitation:</p>
+                    <ul>
+                        <li>Valid for 60 days only</li>
+                        <li>Check all details are correct</li>
+                        <li>Prepare visa application documents</li>
+                        <li>Arrange health examinations</li>
+                        <li>Obtain police certificates</li>
+                    </ul>
+                </div>
+    
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <h3>Visa Application</h3>
+                    <p>Submit within 60 days:</p>
+                    <ul>
+                        <li>Complete Form 47SK</li>
+                        <li>Pay visa application charge</li>
+                        <li>Upload all required documents</li>
+                        <li>Provide biometrics if required</li>
+                        <li>Processing time: 6-8 months</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="document-section">
+                <h3 class="section-subtitle">Required Documents Checklist</h3>
+                <div class="documents-grid">
+                    <div class="document-card">
+                        <h4>Personal Documents</h4>
+                        <ul class="document-list">
+                            <li>Valid passport</li>
+                            <li>Birth certificate</li>
+                            <li>Marriage certificate (if applicable)</li>
+                            <li>National ID cards</li>
+                            <li>Current photographs</li>
+                            <li>Change of name proof (if applicable)</li>
+                        </ul>
+                    </div>
+    
+                    <div class="document-card">
+                        <h4>Qualification Documents</h4>
+                        <ul class="document-list">
+                            <li>Educational certificates</li>
+                            <li>Academic transcripts</li>
+                            <li>Skills assessment outcome</li>
+                            <li>English test results</li>
+                            <li>Professional registrations</li>
+                            <li>Course completion letters</li>
+                        </ul>
+                    </div>
+    
+                    <div class="document-card">
+                        <h4>Work Experience Documents</h4>
+                        <ul class="document-list">
+                            <li>Employment references</li>
+                            <li>Payslips</li>
+                            <li>Tax documents</li>
+                            <li>Employment contracts</li>
+                            <li>Work experience letters</li>
+                            <li>Professional references</li>
+                        </ul>
+                    </div>
+    
+                    <div class="document-card">
+                        <h4>Additional Requirements</h4>
+                        <ul class="document-list">
+                            <li>Police clearances</li>
+                            <li>Health examination results</li>
+                            <li>State/Territory nomination approval</li>
+                            <li>Form 80 - Personal particulars</li>
+                            <li>Evidence of funds</li>
+                            <li>Research statement (if applicable)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="timeline-section">
+                <h3 class="section-subtitle">Estimated Timeline</h3>
+                <div class="timeline-grid">
+                    <div class="timeline-item">
+                        <h4>Pre-Application Phase</h4>
+                        <p>2-6 months</p>
+                        <ul>
+                            <li>Skills assessment</li>
+                            <li>English test preparation and exam</li>
+                            <li>Document preparation</li>
+                        </ul>
+                    </div>
+    
+                    <div class="timeline-item">
+                        <h4>Nomination Phase</h4>
+                        <p>2-12 weeks</p>
+                        <ul>
+                            <li>State nomination application</li>
+                            <li>Processing time</li>
+                        </ul>
+                    </div>
+    
+                    <div class="timeline-item">
+                        <h4>Application Phase</h4>
+                        <p>6-8 months</p>
+                        <ul>
+                            <li>Document submission</li>
+                            <li>Department processing</li>
+                            <li>Additional information requests</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="tips-section">
+                <h3 class="section-subtitle">Important Tips</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h4>Document Preparation</h4>
+                        <ul>
+                            <li>Start collecting documents early</li>
+                            <li>Get documents translated if needed</li>
+                            <li>Keep digital copies of everything</li>
+                            <li>Ensure all documents are certified</li>
+                        </ul>
+                    </div>
+    
+                    <div class="feature-card">
+                        <h4>Application Tips</h4>
+                        <ul>
+                            <li>Double-check all information</li>
+                            <li>Respond promptly to requests</li>
+                            <li>Keep contact details updated</li>
+                            <li>Monitor email regularly</li>
+                        </ul>
+                    </div>
+    
+                    <div class="feature-card">
+                        <h4>Common Pitfalls to Avoid</h4>
+                        <ul>
+                            <li>Missing documentation</li>
+                            <li>Incorrect information</li>
+                            <li>Late responses</li>
+                            <li>Expired documents</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-3 col-12">
+                <div class="widget-footer">
+                    <h3 class="widget-title">About us</h3>
+                    <p>HSM IMMIGRATIONS is a visa and immigration consultancy service it is a one stop solution for you to acquire all information to decide which is the best place for you to migrate. We provide you with complete information about the country you are interested in migrating such as the standard of living, job opportunities and benefits.</p>
+                    <p>We keep on track of the latest migration laws and regulations and constantly update you with the latest news. Our executives go through training programs to keep your assessment updated.</p>
+                    
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Country</h3>
+                    <ul class="listnone arrow-footer">
+                        <li><a href="#">Canada</a></li>
+                        <li><a href="#">United States</a></li>
+                        <li><a href="#">United Kingdom</a></li>
+                        <li><a href="#">Australia</a></li>
+                        <li><a href="#">New Zealand</a></li>
+                        <li><a href="#">Singapore</a></li>
+                        <li><a href="#">South Africa</a></li>
+                        <li><a href="#">Germany</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Visas</h3>
+                    <ul class="listnone arrow-footer">
+                        <li><a href="#"> Students Visas</a></li>
+                        <li><a href="#">Business Visas</a></li>
+                        <li><a href="#">Family Visas</a></li>
+                        <li><a href="#">Travel Visas</a></li>
+                        <li><a href="#">Work Visas</a></li>
+                        <li><a href="#">Visitor Visas</a></li>
+                        <li><a href="#">Migrate Visas</a></li>
+                        <li><a href="#">PR Visas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Contact Us</h3>
+                    <strong>Corporate Office</strong>
+                    <address>Office No.245, 2nd Floor,ijmima building, mindspace, malad west, mumbai-400064.</address>
+                    <p>+91 96076 21025</p>
+                    <p>+61 476 997 621</p>
+                    <p><a href="contact.html">Schedule a Meeting</a>
+                        <br>
+                        <a href="contact.html">Talk to our Expert</a></p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Connect</h3>
+                    <ul class="listnone">
+                        <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i> Linked In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        // Form submission handling
+      const subscribeForm = document.querySelector('form');
+      if (subscribeForm) {
+        subscribeForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const emailInput = subscribeForm.querySelector('input[type="email"]');
+          if (emailInput && emailInput.value) {
+            alert(`Thank you for subscribing with email: ${emailInput.value}`);
+            emailInput.value = '';
+          }
+        });
+      }
+    document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('quickEnquiryForm');
+    const formMessage = document.getElementById('formMessage');
+
+    function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function validatePhone(phone) {
+        return !phone || /^\+?[\d\s-]{8,}$/.test(phone);
+    }
+
+    function showMessage(message, type) {
+        formMessage.textContent = message;
+        formMessage.className = `form-message ${type}`;
+        formMessage.style.display = 'block';
+        
+        if (type === 'success') {
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        }
+    }
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        const name = formData.get('name').trim();
+        const email = formData.get('email').trim();
+        const phone = formData.get('phone').trim();
+        const visaType = formData.get('visaType');
+
+        // Validation
+        if (!name) {
+            showMessage('Please enter your name', 'error');
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            showMessage('Please enter a valid email address', 'error');
+            return;
+        }
+
+        if (!validatePhone(phone)) {
+            showMessage('Please enter a valid phone number', 'error');
+            return;
+        }
+
+        if (!visaType) {
+            showMessage('Please select a visa type', 'error');
+            return;
+        }
+
+        try {
+            // Simulate form submission
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            showMessage('Thank you for your enquiry. We will contact you shortly!', 'success');
+            form.reset();
+        } catch (error) {
+            showMessage('An error occurred. Please try again later.', 'error');
+        }
+    });
+
+    // Real-time validation
+    const inputs = form.querySelectorAll('input, select');
+    inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+            if (this.required && !this.value) {
+                this.style.borderColor = '#dc3545';
+            } else if (this.type === 'email' && !validateEmail(this.value)) {
+                this.style.borderColor = '#dc3545';
+            } else if (this.type === 'tel' && !validatePhone(this.value)) {
+                this.style.borderColor = '#dc3545';
+            } else {
+                this.style.borderColor = '';
+            }
+        });
+
+        input.addEventListener('input', function() {
+            this.style.borderColor = '';
+        });
+    });
+});
+    </script>
+</body>
+</html>

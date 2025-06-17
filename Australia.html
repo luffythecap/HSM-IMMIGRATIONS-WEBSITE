@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Australia Immigration Guide 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700%7cPT+Serif:400,400i,700,700i" rel="stylesheet">
+    <style>
+    /* Reset and base styles */
+
+    :root {
+    --primary: #0056b3;
+    --primary-light: #e6f2ff;
+    --primary-dark: #003d7a;
+    --secondary: #ffc107;
+    --background: #f8f9fa;
+    --text: #2d3748;
+    --text-light: #4a5568;
+    --border: #e2e8f0;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+/* Base Styles & Typography [remain the same] 
+
+/* Original Hero Section */
+.hero {
+    background-color: var(--primary);
+    color: white;
+    padding: 6rem 0 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+                url('https://images.unsplash.com/photo-1523482580672-f109ba8cb9be');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    opacity: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.btn {
+    display: inline-block;
+    background: white;
+    color: #0B2F6A;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+.cta .btn {
+    background: white;
+    color: #0B2F6A;
+    border: 2px solid white;
+}
+
+.cta .btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.enquiry-form {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+#quickEnquiryForm {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--background);
+    color: var();
+    font-size: 1rem;
+    appearance: auto; /* This ensures the dropdown arrow appears */
+    cursor: pointer;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+.form-group select {
+    /* Add these properties to your existing select styles */
+    background-color: rgb(0, 0, 0); /* Ensures white background */
+    color: var(--foreground); /* Ensures text is visible */
+    appearance: auto; /* Shows the dropdown arrow */
+}
+.form-group select option {
+    background: rgb(0, 0, 0);
+    color: var(--foreground);
+    padding: 0.5rem;
+}
+
+/* Style for when the select is opened */
+.form-group select:focus {
+    outline: none;
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background: var(--primary-dark);
+}
+
+/* New styles for form message */
+.form-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+/* Success message style */
+.form-message.success {
+    background-color: rgba(0, 200, 0, 0.1);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Error message style */
+.form-message.error {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* [Rest of the enhanced styles remain the same - cards, tables, footer, etc.] */
+/* Enhanced Cards */
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* Enhanced Tables */
+.table-container {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
+}
+
+th, td {
+    border: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+}
+
+th {
+    background-color: var(--primary);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr:nth-child(even) {
+    background-color: var(--primary-light);
+}
+
+
+/* Responsive design */
+@media (max-width: 968px) {
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .enquiry-form {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 4rem 0 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    #quickEnquiryForm {
+        padding: 1.5rem;
+    }
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-8 { margin-bottom: 2rem; }
+.text-primary { color: var(--primary); }
+.bg-primary { background-color: var(--primary); }
+.bg-light { background-color: var(--background); }
+.text-white { color: white; }
+.shadow { box-shadow: var(--shadow); }
+</style>
+</head>
+<body>
+    <main>
+        <div class="topbar">
+            <!-- topbar -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-none d-sm-none d-lg-block d-xl-block">
+                        <p class="welcome-text">Welcome to HSM - Immigrations Consulting Company</p>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="header-block">
+                            <span class="header-link d-none d-xl-block"><a href="contact.html" class="anchor-link">Talk to Our Expert</a></span>
+                            <span class="header-link">+91 96076 21025</span>
+                            <span class="header-link"> <button type="submit" class="" data-toggle="modal" data-target="#searchModal"> <i class="fa fa-search"></i></button></span>
+                            <span class="header-link"><a href="contact.html" class="btn btn-default btn-sm">Apply Now</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.topbar -->
+        <div class="header-classic">
+            <!-- header classic -->
+              <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"><a href="index.html" class=""><img src="images/HSM LOGO (72 x 12 in).png" alt="Cannada & Australia Immigration"></a></div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+                         <div id="navigation" class="navigation">
+                            <!-- navigation -->
+                           <ul>
+                                <li><a href="index.html">Home</a>
+                                    <!-- <ul>
+                                        <li><a href="index.html">Homepage v1</a></li>
+                                        <li><a href="index-2.html">Homepage v2</a></li>
+                                        <li><a href="index-3.html">Homepage v3</a></li>
+                                        <li><a href="#">Landing pages</a>
+                                            <ul>
+                                                <li><a href="landing-page-v1.html">Landing page v1</a></li>
+                                                <li><a href="landing-page-country-v1.html">Landing page country v1</a></li>
+                                                <li><a href="landing-page-ebook-v3.html">Landing page v3 - eBook</a></li>
+                                                <li><a href="landing-page-webinar.html">Landing page v4 - Webinars</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul> -->
+                                </li>
+                                <li><a href="#">Coaching</a>
+                                    <ul>
+                                        
+                                        <li><a href="ielts.html">IELTS</a></li>
+                                        <li><a href="pte.html">PTE</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="visa-list.html">Visas</a>
+                                    
+                                </li>
+                                
+                                
+                                
+                                <li><a href="study.html">Study</a></li> 
+                                
+                                
+                                <li><a href="migrate.html">Migrate</a>
+                                    <ul>
+                                        <li><a href="Australia.html">Austarlia</a>
+                                            <ul>
+                                                
+                                                <li><a href="Subclass 189.html">Subclass 189</a></li>
+                                                <li><a href="Subclass 190.html">Subclass 190</a></li>
+                                                <li><a href="Subclass 491.html">Subclass 491</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="about.html">About us </a>
+                                    <!-- <ul>
+                                        <li><a href="#">About Us</a>
+                                            <ul>
+                                                <li><a href="about-us-page-v1.html">About us v1</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="founder-page.html">Founder page</a></li>
+                                        <li><a href="agent-list-page.html">Agent List</a></li>
+                                        <li><a href="agent-single-page.html">Agent Single</a></li>
+                                        <li><a href="partner-university-page.html">Partner University Page</a></li>
+                                    </ul> -->
+                                </li>
+                                
+                                
+                                
+                                
+                                <li><a href="free-assessment-enquiry.html" target="blank">Points Calculator +</a></li>
+                                
+                                
+                                
+                                <!-- <li><a href="#">Blog </a>
+                                   
+                                </li> -->
+                                <li><a href="contact.html">Contact </a>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Comprehensive Australia Immigration Guide 2024</h1>
+                    <p>Embark on your journey to Australia, a land of boundless opportunities, cultural diversity, and unparalleled quality of life. This in-depth guide provides essential information on visa pathways, eligibility criteria, and the immigration process to help you make your Australian dream a reality.</p>
+                    <a href="contact.html" class="btn">Get Expert Consultation</a>
+                </div>
+                <div class="enquiry-form">
+                    <form id="quickEnquiryForm" class="bg-white/95 rounded p-6 mt-8 max-w-md mx-auto">
+                        <h3 class="form-title">Quick Visa Enquiry</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="visaType" name="visaType" required>
+                                <option value="">Select Visa Type</option>
+                                <option value="189">Skilled Independent (189)</option>
+                                <option value="190">Skilled Nominated (190)</option>
+                                <option value="491">Skilled Work Regional (491)</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Message</label>
+                            <textarea id="comments" rows="3" placeholder="Your message or questions"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Enquiry</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>    
+            </div>
+        </section>
+
+        <!-- Visa Categories Section -->
+        <section id="visa-categories" class="section">
+            <div class="container">
+                <h2 class="text-center mb-8">Visa Categories: Your Gateway to Australia</h2>
+
+                <div class="card">
+                    <h3>1. Skilled Independent Visa (Subclass 189)</h3>
+                    <p><strong>Description:</strong> A points-based permanent residency visa for skilled workers without sponsorship from an employer, state government, or family member.</p>
+                    <ul class="feature-list">
+                        <li><strong>Eligibility:</strong> Requires a minimum of 65 points based on factors such as age, English language proficiency, skilled employment experience, and educational qualifications.</li>
+                        <li><strong>Benefits:</strong> Grants immediate permanent residency with the freedom to live, work, and study anywhere in Australia. Also includes Medicare benefits and the ability to sponsor eligible relatives for permanent residence.</li>
+                        <li><strong>Processing Time:</strong> Typically 6-8 months, but can vary based on individual circumstances and application volumes.</li>
+                    </ul>
+                    <h4>Key Requirements:</h4>
+                    <ul class="feature-list">
+                        <li>Positive skills assessment from a relevant assessing authority</li>
+                        <li>Occupation must be listed on the Medium and Long-term Strategic Skills List (MLTSSL)</li>
+                        <li>Must be under 45 years of age at the time of invitation</li>
+                        <li>Competent English language proficiency (minimum IELTS 6.0 in each band or equivalent)</li>
+                        <li>Submit an Expression of Interest (EOI) through SkillSelect and receive an invitation to apply</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>2. Skilled Nominated Visa (Subclass 190)</h3>
+                    <p><strong>Description:</strong> A permanent residency visa that requires nomination by an Australian state or territory government.</p>
+                    <ul class="feature-list">
+                        <li><strong>Eligibility:</strong> Similar to Subclass 189, but with the additional requirement of state or territory nomination. Occupation must be on the specific state's skilled occupation list.</li>
+                        <li><strong>Benefits:</strong> Permanent residency with an initial obligation to live and work in the nominating state or territory for at least two years. Includes all benefits of permanent residency, including Medicare and education access.</li>
+                        <li><strong>Processing Time:</strong> Generally faster than Subclass 189, often processed within 3-6 months after nomination.</li>
+                    </ul>
+                    <h4>Additional Information:</h4>
+                    <ul class="feature-list">
+                        <li>Applicants receive 5 additional points for state nomination</li>
+                        <li>Each state/territory has its own nomination criteria and occupation lists</li>
+                        <li>May have lower points threshold compared to Subclass 189, increasing chances for applicants with lower points scores</li>
+                        <li>Some states may require a job offer or specific work experience in the nominated occupation</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>3. Skilled Work Regional Visa (Subclass 491)</h3>
+                    <p><strong>Description:</strong> A provisional visa for skilled workers willing to live and work in designated regional areas of Australia for at least 5 years.</p>
+                    <ul class="feature-list">
+                        <li><strong>Eligibility:</strong> Requires state/territory nomination or sponsorship by an eligible family member residing in a designated regional area. Points-based system applies.</li>
+                        <li><strong>Benefits:</strong> Valid for five years with a pathway to permanent residency through the Permanent Residence (Skilled Regional) visa (Subclass 191) after living and working in the regional area for at least 3 years.</li>
+                    </ul>
+                    <h4>Key Features:</h4>
+                    <ul class="feature-list">
+                        <li>Access to a wider range of occupations compared to other skilled visas</li>
+                        <li>Priority processing by the Department of Home Affairs</li>
+                        <li>Additional 15 points for state/territory nomination or family sponsorship</li>
+                        <li>Encourages regional development by addressing skill shortages in specific areas</li>
+                        <li>Access to certain regional concessions, including priority processing for subsequent permanent residency application</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>4. Employer-Sponsored Visas</h3>
+                    <p><strong>Description:</strong> These visas allow Australian employers to sponsor skilled workers for temporary or permanent residency, addressing specific skill shortages in their businesses.</p>
+                    <h4>Main Types:</h4>
+                    <ul class="feature-list">
+                        <li><strong>Temporary Skill Shortage (TSS) Visa (Subclass 482):</strong>
+                            <ul>
+                                <li>Short-term stream: Up to 2 years (may be renewed once onshore)</li>
+                                <li>Medium-term stream: Up to 4 years with a pathway to permanent residency after 3 years</li>
+                                <li>Labour Agreement stream: For approved sponsors under a labour agreement</li>
+                            </ul>
+                        </li>
+                        <li><strong>Employer Nomination Scheme (Subclass 186):</strong>
+                            <ul>
+                                <li>Direct Entry stream: For skilled workers who have not worked in Australia on a 457 or 482 visa</li>
+                                <li>Temporary Residence Transition stream: For 457 or 482 visa holders who have worked for their sponsoring employer for at least 3 years</li>
+                                <li>Labour Agreement stream: For nominees under a labour agreement</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h4>Eligibility:</h4>
+                    <ul class="feature-list">
+                        <li>Relevant work experience and skills as required by the sponsoring employer</li>
+                        <li>Meet specific occupation requirements (ANZSCO skill level and tasks)</li>
+                        <li>English language proficiency (varies by visa subclass and stream)</li>
+                        <li>Age requirements (generally under 45 for permanent visas, no age limit for temporary visas)</li>
+                        <li>Health and character requirements</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eligibility Criteria Section -->
+        <section id="eligibility" class="section section-alt">
+            <div class="container">
+                <h2 class="text-center mb-8">Comprehensive Eligibility Criteria</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h4>Basic Requirements</h4>
+                        <ul class="feature-list">
+                            <li><strong>Age:</strong> Must typically be under 45 years old at the time of invitation for permanent visas. No age limit for some temporary visas.</li>
+                            <li><strong>English Proficiency:</strong> Proven through recognized tests:
+                                <ul>
+                                    <li>IELTS: Minimum 6.0 in each band for competent English</li>
+                                    <li>PTE Academic: Minimum 50 in each communicative skill</li>
+                                    <li>TOEFL iBT: Minimum total score of 60 and specific scores for each section</li>
+                                    <li>Higher scores may be required for certain occupations or to claim additional points</li>
+                                </ul>
+                            </li>
+                            <li><strong>Skills Assessment:</strong> Obtain a positive skills assessment from an authorized assessing authority for your nominated occupation. This process validates your qualifications and experience against Australian standards.</li>
+                            <li><strong>Health Requirements:</strong> Pass a medical examination to ensure you meet the health requirement. This may include chest x-rays, HIV tests, and other medical checks.</li>
+                            <li><strong>Character Requirements:</strong> Provide police clearance certificates from all countries you've lived in for 12 months or more in the past 10 years.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h4>Points Test (for points-tested visas)</h4>
+                        <ul class="feature-list">
+                            <li>Minimum of 65 points required to be eligible for invitation</li>
+                            <li>Points allocated based on:
+                                <ul>
+                                    <li><strong>Age:</strong> Maximum 30 points (25-33 years old)</li>
+                                    <li><strong>English language proficiency:</strong> Up to 20 points for superior English</li>
+                                    <li><strong>Skilled employment:</strong> Up to 20 points for overseas and Australian experience</li>
+                                    <li><strong>Educational qualifications:</strong> Up to 20 points for a Doctorate degree</li>
+                                    <li><strong>Australian study requirement:</strong> 5 points</li>
+                                    <li><strong>Specialist education qualification:</strong> 10 points</li>
+                                    <li><strong>Credentialled community language:</strong> 5 points</li>
+                                    <li><strong>Study in regional Australia:</strong> 5 points</li>
+                                    <li><strong>Partner skills:</strong> 10 points if eligible</li>
+                                    <li><strong>Professional year in Australia:</strong> 5 points</li>
+                                </ul>
+                            </li>
+                            <li>Higher points increase the likelihood of receiving an invitation to apply</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h4>Occupation Lists</h4>
+                        <ul class="feature-list">
+                            <li><strong>Medium and Long-term Strategic Skills List (MLTSSL):</strong>
+                                <ul>
+                                    <li>Occupations in high demand over the long term</li>
+                                    <li>Eligible for Subclass 189, 190, and 491 visas</li>
+                                    <li>Includes professions in IT, engineering, healthcare, and more</li>
+                                </ul>
+                            </li>
+                            <li><strong>Short-term Skilled Occupation List (STSOL):</strong>
+                                <ul>
+                                    <li>Occupations to fill short-term skill gaps</li>
+                                    <li>Eligible for Subclass 190 and some temporary visas</li>
+                                    <li>List is reviewed regularly and can change based on labor market needs</li>
+                                </ul>
+                            </li>
+                            <li><strong>Regional Occupation List (ROL):</strong>
+                                <ul>
+                                    <li>Additional occupations available for regional areas</li>
+                                    <li>Eligible for Subclass 491 and other regional visas</li>
+                                    <li>Aims to address skill shortages in specific regional areas</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Process Section -->
+        <section id="process" class="section">
+            <div class="container">
+                <h2 class="text-center mb-8">Detailed Application Process</h2>
+                <div class="card">
+                    <ol class="feature-list">
+                        <li><strong>Skills Assessment:</strong>
+                            <ul>
+                                <li>Identify the relevant assessing authority for your occupation</li>
+                                <li>Prepare and submit required documentation (qualifications, work experience evidence, etc.)</li>
+                                <li>Pay the assessment fee and wait for the outcome (processing times vary by authority)</li>
+                            </ul>
+                        </li>
+                        <li><strong>English Language Test:</strong>
+                            <ul>
+                                <li>Book and take an approved English language test (IELTS, PTE Academic, TOEFL iBT, etc.)</li>
+                                <li>Ensure you achieve the required scores for your visa category</li>
+                            </ul>
+                        </li>
+                        <li><strong>Expression of Interest (EOI):</strong>
+                            <ul>
+                                <li>Create an account in SkillSelect</li>
+                                <li>Complete the online EOI form, providing accurate information about your skills, qualifications, and experience</li>
+                                <li>Submit your EOI and wait for an invitation to apply (if applying for points-tested visas)</li>
+                            </ul>
+                        </li>
+                        <li><strong>State Nomination or Employer Sponsorship (if applicable):</strong>
+                            <ul>
+                                <li>For Subclass 190 or 491: Apply for state nomination through the relevant state/territory website</li>
+                                <li>For employer-sponsored visas: Secure a job offer and sponsorship from an approved sponsor</li>
+                            </ul>
+                        </li>
+                        <li><strong>Invitation to Apply:</strong>
+                            <ul>
+                                <li>Receive an invitation via SkillSelect (for points-tested visas)</li>
+                                <li>Invitation is valid for 60 days</li>
+                            </ul>
+                        </li>
+                        <li><strong>Lodging the Visa Application:</strong>
+                            <ul>
+                                <li>Create an ImmiAccount and start your online application</li>
+                                <li>Pay the visa application charge</li>
+                                <li>Upload all required documents, including:
+                                    <ul>
+                                        <li>Passport biodata page</li>
+                                        <li>Birth certificate</li>
+                                        <li>Skills assessment</li>
+                                        <li>English test results</li>
+                                        <li>Educational qualifications</li>
+                                        <li>Employment references</li>
+                                        <li>Police clearance certificates</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><strong>Health Examinations:</strong>
+                            <ul>
+                                <li>Generate your Health Assessment portal (HAP) ID</li>
+                                <li>Book and attend your medical examination at an approved panel physician</li>
+                                <li>Results will be sent directly to the Department of Home Affairs</li>
+                            </ul>
+                        </li>
+                        <li><strong>Biometrics Collection (if required):</strong>
+                            <ul>
+                                <li>Receive a request to provide biometrics</li>
+                                <li>Schedule an appointment at an approved biometrics collection center</li>
+                                <li>Attend the appointment to provide fingerprints and a digital photograph</li>
+                            </ul>
+                        </li>
+                        <li><strong>Wait for Decision:</strong>
+                            <ul>
+                                <li>The Department of Home Affairs will assess your application</li>
+                                <li>You may be contacted for additional information or clarification</li>
+                                <li>Processing times vary depending on the visa subclass and individual circumstances</li>
+                            </ul>
+                        </li>
+                        <li><strong>Visa Grant:</strong>
+                            <ul>
+                                <li>If approved, you will receive a visa grant notification</li>
+                                <li>Review all visa conditions and validity periods</li>
+                                <li>Make necessary arrangements for your move to Australia</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- Visa Comparison Section -->
+        <section id="comparison" class="section">
+            <div class="container">
+                <h2 class="text-center mb-8">In-Depth Comparison of Skilled Visa Subclasses</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Subclass 189</th>
+                                <th>Subclass 190</th>
+                                <th>Subclass 491</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Residency Type</td>
+                                <td>Permanent</td>
+                                <td>Permanent</td>
+                                <td>Temporary (5 years)</td>
+                            </tr>
+                            <tr>
+                                <td>Sponsorship Required</td>
+                                <td>No</td>
+                                <td>State/Territory</td>
+                                <td>State/Territory or Family</td>
+                            </tr>
+                            <tr>
+                                <td>Regional Obligation</td>
+                                <td>No</td>
+                                <td>Yes (initially, typically 2 years)</td>
+                                <td>Yes (entire 5-year period)</td>
+                            </tr>
+                            <tr>
+                                <td>Pathway to Permanent Residency</td>
+                                <td>Immediate</td>
+                                <td>Immediate</td>
+                                <td>Yes (via Subclass 191 after 3 years)</td>
+                            </tr>
+                            <tr>
+                                <td>Points Required</td>
+                                <td>Minimum 65 (typically 80-90+ for invitation)</td>
+                                <td>Minimum 65 (typically 65-75 for invitation)</td>
+                                <td>Minimum 65 (typically 65-80 for invitation)</td>
+                            </tr>
+                            <tr>
+                                <td>Occupation List</td>
+                                <td>MLTSSL only</td>
+                                <td>MLTSSL and STSOL</td>
+                                <td>MLTSSL, STSOL, and ROL</td>
+                            </tr>
+                            <tr>
+                                <td>Work Rights</td>
+                                <td>Unrestricted</td>
+                                <td>Unrestricted</td>
+                                <td>Restricted to regional areas</td>
+                            </tr>
+                            <tr>
+                                <td>Access to Medicare</td>
+                                <td>Immediate</td>
+                                <td>Immediate</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Education Access</td>
+                                <td>Unrestricted</td>
+                                <td>Unrestricted</td>
+                                <td>Restricted to regional institutions</td>
+                            </tr>
+                            <tr>
+                                <td>Family Sponsorship</td>
+                                <td>Can sponsor family members</td>
+                                <td>Can sponsor family members</td>
+                                <td>Limited sponsorship rights</td>
+                            </tr>
+                            <tr>
+                                <td>Travel Rights</td>
+                                <td>5-year travel facility</td>
+                                <td>5-year travel facility</td>
+                                <td>5-year visa validity</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Australia Section -->
+        <section id="why-australia" class="section section-alt">
+            <div class="container">
+                <h2 class="text-center mb-8">Compelling Reasons to Choose Australia</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h4>World-Class Quality of Life</h4>
+                        <p>Australia consistently ranks among the top countries globally for quality of life, offering:</p>
+                        <ul class="feature-list">
+                            <li>Universal healthcare system (Medicare)</li>
+                            <li>High-quality education system, including world-renowned universities</li>
+                            <li>Safe and stable political environment</li>
+                            <li>Clean environment with low pollution levels</li>
+                            <li>Work-life balance with emphasis on outdoor lifestyle</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Robust Economic Opportunities</h4>
+                        <p>Australia's strong and resilient economy provides:</p>
+                        <ul class="feature-list">
+                            <li>Low unemployment rates</li>
+                            <li>High minimum wage and worker protections</li>
+                            <li>Growing industries in technology, healthcare, and renewable energy</li>
+                            <li>Opportunities for entrepreneurship and innovation</li>
+                            <li>Strong superannuation (retirement) system</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Multicultural Society</h4>
+                        <p>Embrace Australia's diverse and inclusive culture:</p>
+                        <ul class="feature-list">
+                            <li>Over 30% of Australians born overseas</li>
+                            <li>Celebration of cultural festivals and events</li>
+                            <li>Diverse culinary scene</li>
+                            <li>Strong anti-discrimination laws</li>
+                            <li>Multicultural support services for new migrants</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Natural Beauty and Climate</h4>
+                        <p>Experience Australia's unique landscapes and favorable climate:</p>
+                        <ul class="feature-list">
+                            <li>Diverse ecosystems from tropical rainforests to arid outback</li>
+                            <li>Over 10,000 beaches and the Great Barrier Reef</li>
+                            <li>Unique wildlife and flora</li>
+                            <li>Generally mild climate with plenty of sunshine</li>
+                            <li>Opportunities for outdoor activities year-round</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Excellent Education System</h4>
+                        <p>Benefit from Australia's world-class education:</p>
+                        <ul class="feature-list">
+                            <li>8 of the top 100 universities in the world</li>
+                            <li>Strong vocational education and training (VET) sector</li>
+                            <li>Multicultural classrooms fostering global perspectives</li>
+                            <li>Opportunities for international students to work while studying</li>
+                            <li>Potential pathways to permanent residency for graduates</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Healthcare Excellence</h4>
+                        <p>Access to Australia's comprehensive healthcare system:</p>
+                        <ul class="feature-list">
+                            <li>Universal healthcare coverage through Medicare</li>
+                            <li>High-quality public and private hospitals</li>
+                            <li>Focus on preventative health and wellbeing</li>
+                            <li>World-class medical research and innovation</li>
+                            <li>Mental health support services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-3 col-12">
+                <div class="widget-footer">
+                    <h3 class="widget-title">About us</h3>
+                    <p>HSM IMMIGRATIONs is a visa and immigration consultancy service it is a one stop solution for you to acquire all information to decide which is the best place for you to migrate. We provide you with complete information about the country you are interested in migrating such as the standard of living, job opportunities and benefits.</p>
+                    <p>We keep on track of the latest migration laws and regulations and constantly update you with the latest news. Our executives go through training programs to keep your assessment updated.</p>
+                    
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Country</h3>
+                    <ul class="listnone arrow-footer">
+                        <li><a href="#">Canada</a></li>
+                        <li><a href="#">United States</a></li>
+                        <li><a href="#">United Kingdom</a></li>
+                        <li><a href="#">Australia</a></li>
+                        <li><a href="#">New Zealand</a></li>
+                        <li><a href="#">Singapore</a></li>
+                        <li><a href="#">South Africa</a></li>
+                        <li><a href="#">Germany</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Visas</h3>
+                    <ul class="listnone arrow-footer">
+                        <li><a href="#"> Students Visas</a></li>
+                        <li><a href="#">Business Visas</a></li>
+                        <li><a href="#">Family Visas</a></li>
+                        <li><a href="#">Travel Visas</a></li>
+                        <li><a href="#">Work Visas</a></li>
+                        <li><a href="#">Visitor Visas</a></li>
+                        <li><a href="#">Migrate Visas</a></li>
+                        <li><a href="#">PR Visas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Contact Us</h3>
+                    <strong>Corporate Office</strong>
+                    <address>Office No.245, 2nd Floor,ijmima building, mindspace, malad west, mumbai-400064.</address>
+                    <p>+91 96076 21025</p>
+                    <p>+61 476 997 621</p>
+                    <p><a href="contact.html">Schedule a Meeting</a>
+                        <br>
+                        <a href="contact.html">Talk to our Expert</a></p>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6">
+                <div class="widget-footer">
+                    <h3 class="widget-title">Connect</h3>
+                    <ul class="listnone">
+                        <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i> Linked In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Animation for cards
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('.card').forEach(card => {
+        observer.observe(card);
+      });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Sticky header
+      const header = document.querySelector('header');
+      if (header) {
+        const headerHeight = header.offsetHeight;
+
+        window.addEventListener('scroll', () => {
+          if (window.pageYOffset > headerHeight) {
+            header.classList.add('sticky');
+          } else {
+            header.classList.remove('sticky');
+          }
+        });
+      }
+
+      // Mobile menu toggle
+      const mobileMenuButton = document.querySelector('.mobile-menu-button');
+      const mobileMenu = document.querySelector('.mobile-menu');
+
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('active');
+        });
+      }
+
+      // Form submission handling
+      const subscribeForm = document.querySelector('form');
+      if (subscribeForm) {
+        subscribeForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const emailInput = subscribeForm.querySelector('input[type="email"]');
+          if (emailInput && emailInput.value) {
+            alert(`Thank you for subscribing with email: ${emailInput.value}`);
+            emailInput.value = '';
+          }
+        });
+      }
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('quickEnquiryForm');
+    const formMessage = document.getElementById('formMessage');
+
+    function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function validatePhone(phone) {
+        return !phone || /^\+?[\d\s-]{8,}$/.test(phone);
+    }
+
+    function showMessage(message, type) {
+        formMessage.textContent = message;
+        formMessage.className = `form-message ${type}`;
+        formMessage.style.display = 'block';
+        
+        if (type === 'success') {
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        }
+    }
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        const name = formData.get('name').trim();
+        const email = formData.get('email').trim();
+        const phone = formData.get('phone').trim();
+        const visaType = formData.get('visaType');
+
+        // Validation
+        if (!name) {
+            showMessage('Please enter your name', 'error');
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            showMessage('Please enter a valid email address', 'error');
+            return;
+        }
+
+        if (!validatePhone(phone)) {
+            showMessage('Please enter a valid phone number', 'error');
+            return;
+        }
+
+        if (!visaType) {
+            showMessage('Please select a visa type', 'error');
+            return;
+        }
+
+        try {
+            // Simulate form submission
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            showMessage('Thank you for your enquiry. We will contact you shortly!', 'success');
+            form.reset();
+        } catch (error) {
+            showMessage('An error occurred. Please try again later.', 'error');
+        }
+    });
+
+    // Real-time validation
+    const inputs = form.querySelectorAll('input, select');
+    inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+            if (this.required && !this.value) {
+                this.style.borderColor = '#dc3545';
+            } else if (this.type === 'email' && !validateEmail(this.value)) {
+                this.style.borderColor = '#dc3545';
+            } else if (this.type === 'tel' && !validatePhone(this.value)) {
+                this.style.borderColor = '#dc3545';
+            } else {
+                this.style.borderColor = '';
+            }
+        });
+
+        input.addEventListener('input', function() {
+            this.style.borderColor = '';
+        });
+    });
+});
+    </script>
+</body>
+</html>
